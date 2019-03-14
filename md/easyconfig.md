@@ -14,8 +14,8 @@ webpack-demo
   |- bundle.js
   |- index.html
 |- /src
-  |- index.js 入口文件
-  |- index.html HTML模板
+  |- index.js //入口文件
+  |- index.html //HTML模板
 |- /node_modules
 ```
 - 在package.json添加命令（npm init创建）
@@ -26,6 +26,7 @@ webpack-demo
     "build": "webpack"
 }
 ```
+- webpack.config.js
 
 ```js
 const path = require('path');
