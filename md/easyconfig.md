@@ -65,7 +65,7 @@ module.exports = {
         contentBase: path.join(__dirname, "dist"),
         compress: true,
         port: 9000,
-        host: '0.0.0.0' //
+        host: '0.0.0.0' //允许全网段访问该端口
     }
 };
 ```
