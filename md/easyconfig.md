@@ -26,7 +26,7 @@ webpack-demo
     "dev":"node_modules/.bin/webpack-dev-server"
 }
 ```
-- webpack.config.js
+- webpack.config.js(修改js入口，HTML模板入口即可)
 
 ```js
 const path = require('path');
